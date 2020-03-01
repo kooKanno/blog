@@ -3,12 +3,12 @@ module.exports = {
     title: `kooKannoBlog`,
     author: {
       name: `kooKanno`,
-      summary: `Videographer`,
+      summary: `Im Videographer,yeah.`,
     },
     description: `日記、技術的なメモ`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://vigorous-torvalds-3a9b4b.netlify.com/`,
     social: {
-      twitter: `kookanno`,
+      twitter: `@KannoKoo`,
     },
   },
   plugins: [
@@ -53,7 +53,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-159387581-1`,
       },
     },
     `gatsby-plugin-feed`,
@@ -63,10 +63,10 @@ module.exports = {
         name: `Gatsby Starter Blog`,
         short_name: `GatsbyJS`,
         start_url: `/`,
-        background_color: `#ffffff`,
+        background_color: `#00ff00`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/profile-pic.png`,
       },
     },
     `gatsby-plugin-react-helmet`,
