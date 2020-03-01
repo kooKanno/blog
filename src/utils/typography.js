@@ -1,5 +1,12 @@
 import Typography from "typography"
-import Wordpress2016 from "typography-theme-wordpress-2016"
+import Wordpress2016 from "typography-theme-github"
+import { cornflowerblue } from "color-name"
+
+// funston.overrideThemeStyles = ({ rhythm }, options) => ({
+//   'h2,h3': {
+//     marginBottom: rhythm(1/2),
+//     marginTop: rhythm(2),
+//   }
 
 Wordpress2016.overrideThemeStyles = () => {
   return {
