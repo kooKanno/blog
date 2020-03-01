@@ -1,5 +1,5 @@
 ---
-title: ui
+title: 挨拶と映画の感想
 date: "2020-03-01T22:12:03.284Z"
 description: "挨拶と映画の感想"
 ---
